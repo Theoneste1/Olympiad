@@ -860,7 +860,7 @@ body {
 .slider-area .text-content, .background-area .text-content, .table-cell {display: table-cell; vertical-align: middle;}
 .banner-content h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 64px;
     padding-bottom: 41px;
     position: relative;
@@ -922,6 +922,12 @@ body {
 .preview-2 {position: relative;}
 .preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav, .preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
     font-size: 0;
+}
+.text-content .title1{
+    background-color: #5A6271;
+    width: 100%;
+    opacity: 1;
+
 }
 .preview-2 .nivo-directionNav a.nivo-prevNav::before, .preview-2 .nivo-directionNav a.nivo-nextNav::before {
     background: #5A6271;
@@ -1066,6 +1072,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin-bottom: 20px;
+ 
 }
 .single-item:hover {
     background: #ffffff none repeat scroll 0 0;
@@ -1162,12 +1169,14 @@ body {
 .single-latest-item {
     overflow: hidden;
     margin-bottom: 50px;
+    background-color: green;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s
 }
 .single-latest-item:hover {box-shadow: 2px 5px 25px rgba(34, 30, 31, 0.25);}
 .single-latest-text > h3 a {color: #2d3e50;}
-.single-latest-image {float: left;}
+.single-latest-image {float: left;
+}
 .single-latest-image a {display: inline-block}
 .single-latest-text {
     background: #f6f6f6 none repeat scroll 0 0;
@@ -1175,10 +1184,17 @@ body {
     overflow: hidden;
     padding: 30px 0 27px 35px;
 }
-/* .single-latest-image img{
+
+/* Theoneste's */
+.single-latest-image{
+    min-height:234px;
+   width: 236px;
+   overflow: hidden;
+}
+.single-latest-image img{
+   height:100%;
    width: 100%;
-   height: 100%;
-} */
+}
 .single-latest-item .single-item-comment-view span {margin-right: 13px;}
 .single-latest-item .single-item-comment-view {
     display: block;
@@ -1516,6 +1532,10 @@ body {
     margin-bottom: 15px;
     margin-right: 15px;
 }
+.footer-img img {
+   width: 50px;
+   height: 50px;
+}
 .instagram-image .footer-img:nth-child(3), .instagram-image .footer-img:nth-child(6) {margin-right: 0;}
 .footer-img a {display: inline-block; position: relative}
 .footer-img a:before {
@@ -1837,10 +1857,27 @@ body {
 .single-teacher-item {
     box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
     position: relative;
+    background: #f6f6f6 none repeat scroll 0 0;
 }
 .single-teacher-item:hover {box-shadow: 0 6px 20px rgba(34, 30, 31, 0.3);}
-.single-teacher-image > a {display: inline-block; position: relative;}
-.single-teacher-image > a img, .single-teacher-image > a {width: 100%;}
+
+.single-teacher-image > a {
+    display: inline-block; 
+    position: relative;
+    
+}
+.single-teacher-image{
+    width: 100%;
+    height: 100%;
+   
+}
+.single-teacher-image > a img, .single-teacher-image > a {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto auto;
+}
 .single-teacher-image > a:after {
     content: "";
     height: 100%;
@@ -1876,11 +1913,11 @@ body {
 	font-weight: 600;
 	margin-bottom: 4px;
 	padding-top: 20px;
-	font-size: 24px;
+	font-size: 18px;
 }
 .single-teacher-item:hover .single-teacher-text > h3 {padding-top: 0;}
 .single-teacher-text > h3 a {color: #222222;}
-.single-teacher-text > h4 {font-family: raleway; font-weight: 500;}
+.single-teacher-text > h4 {font-family: raleway; font-weight: 400; font-size: 19px;}
 .single-teacher-text > p {display: none; padding-top: 13px;}
 .single-teacher-item:hover .single-teacher-text p {display: block;}
 .social-links > a {
@@ -2409,6 +2446,17 @@ span.c-text {display: inline-block;}
     line-height: 16px;
     margin-bottom: 7px;
     overflow: hidden;
+}
+.skill-image{
+    background-color:#999999 ;
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.skill-image img{
+    height: 450px;
+    margin: auto auto;
+
 }
 .skill-bar-item > span {display: block; margin-bottom: 10px;}
 .skill-bar-item:last-child {margin: 0;}
