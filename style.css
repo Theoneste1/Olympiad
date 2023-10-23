@@ -542,7 +542,10 @@ body {
 .mainmenu ul#nav.menu-white > li:hover > a:after {background: #2d3e50 }
 .mainmenu ul#nav > li:hover > a:after, .mainmenu ul#nav.menu-white > li:hover > a:after{width: 21px}
 
-.mainmenu ul#nav.menu-white > li > a {color: #fff;}
+/* .mainmenu ul#nav.menu-white > li > a {color: #fff;} */
+.mainmenu ul#nav.menu-white > li > a {
+    color:#2d3e50;
+}
 .header-logo-menu.stick .mainmenu ul#nav.menu-white > li > a {color: #2d3e50;}
 .mainmenu ul#nav.menu-white > li:hover > a, .stick .mainmenu ul#nav.menu-white > li:hover > a {color: #2d3e50}
 .mainmenu li > a > i {
@@ -629,7 +632,7 @@ body {
     left: 0;
     position: absolute;
     right: 0;
-    top: 0;
+    /* top: 0; */
     z-index: 99999;
 }
 /*----------------------------------------*/
@@ -1494,6 +1497,8 @@ body {
     background: #2d3e50 none repeat scroll 0 0;
     color: #ffffff;
     padding: 80px 0 65px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .footer-logo > a {display: inline-block;}
 .footer-logo {margin-bottom: 24px;}
