@@ -929,7 +929,7 @@ body {
 .text-content .title1{
     background-color: #5A6271;
     width: 100%;
-    opacity: 1;
+    opacity: 0.9;
 
 }
 .preview-2 .nivo-directionNav a.nivo-prevNav::before, .preview-2 .nivo-directionNav a.nivo-nextNav::before {
@@ -2456,17 +2456,17 @@ span.c-text {display: inline-block;}
     margin-bottom: 7px;
     overflow: hidden;
 }
-.skill-image{
+/* .skill-image{
     background-color:#999999 ;
     height: 450px;
     width: 100%;
     display: flex;
-}
-.skill-image img{
+} */
+/* .skill-image img{
     height: 450px;
     margin: auto auto;
 
-}
+} */
 .skill-bar-item > span {display: block; margin-bottom: 10px;}
 .skill-bar-item:last-child {margin: 0;}
 .skill-bar-item:last-child .progress {margin: 0;}
@@ -2566,7 +2566,7 @@ span.c-text {display: inline-block;}
     overflow: hidden;
     position: relative;
 }
-.video-area {background: url("img/slider/5.jpg") no-repeat fixed top center / cover }
+.video-area {background: url("img/event/IMO4.jpg") no-repeat fixed top center / cover }
 .fixed-bg-1 {background: url("img/slider/1.jpg") no-repeat fixed top center / cover }
 .fixed-bg-2 {background: url("img/slider/2.jpg") no-repeat fixed top center / cover }
 .backgrount-area {position: relative}
@@ -2971,4 +2971,48 @@ span.c-text {display: inline-block;}
     border: 0;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+
+/* camp style */
+.change-background{
+    position: relative;
+    width: 100%;
+}
+
+.camp-background{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: yellow;
+    display: flex;
+    /* position: absolute; */
+    z-index: 5;
+}
+.subject{
+    color:#2d3e50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#subject-title{
+    text-align: center;
+    display: flex;
+}
+
+/* video area from home */
+
+
+
+.found-area .container{
+    width: 100%;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.founder-profile img{
+    padding-top: 100px;
+    border-radius: 50%;
+    
 }
