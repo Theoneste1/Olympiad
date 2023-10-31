@@ -3016,3 +3016,8 @@ span.c-text {display: inline-block;}
     border-radius: 50%;
     
 }
+
+/* change the color */
+.ec-colorswitcher{
+    display: none;
+}
