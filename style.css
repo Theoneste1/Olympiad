@@ -3017,7 +3017,11 @@ span.c-text {display: inline-block;}
     
 }
 
-/* change the color */
+/* change the color button */
 .ec-colorswitcher{
+    display: none;
+}
+
+.zmdi-settings{
     display: none;
 }
