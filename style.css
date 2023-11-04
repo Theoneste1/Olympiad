@@ -3021,3 +3021,8 @@ span.c-text {display: inline-block;}
 .ec-colorswitcher{
     display: none;
 }
+
+/* index-more-activities */
+.space{
+    padding-bottom: 50px;
+}
