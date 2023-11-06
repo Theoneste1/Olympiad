@@ -136,7 +136,7 @@
     });    
     
     $(".player-small").YTPlayer({
-        showControls: false
+        showControls: true
     });
    
 /*------------------------------------
