@@ -853,6 +853,7 @@ body {
 .banner-content, .banner-content .container, .banner-content .row, .banner-content .col-md-12, .banner-content .text-content-wrapper, .banner-content .text-content {
     height: 100%;
     margin: auto;
+    border-radius: 6px;
 }
 .banner-content .text-content-wrapper {
     display: table;
@@ -894,6 +895,7 @@ body {
     display: inline-block;
     font-family: "montserratregular";
     font-size: 14px;
+    border-radius: 3px;
     margin: 0;
     padding: 15px 35px;
     text-transform: uppercase;
@@ -1071,6 +1073,7 @@ body {
 .single-item {
     background: #f6f6f6 none repeat scroll 0 0;
     border-bottom: 3px solid #86bc42;
+    border-radius: 6px;
     padding: 0 35px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1173,6 +1176,7 @@ body {
     overflow: hidden;
     margin-bottom: 50px;
     background-color: #f6f6f6 ;
+    border-radius: 6px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s
 }
@@ -1183,6 +1187,7 @@ body {
 .single-latest-image a {display: inline-block}
 .single-latest-text {
     background: #f6f6f6 none repeat scroll 0 0;
+border-radius: 6px;
     border-bottom: 2px solid #86bc42;
     overflow: hidden;
     padding: 30px 0 27px 35px;
@@ -1401,6 +1406,7 @@ body {
 }
 .single-event-text {
     background: #f6f6f6 none repeat scroll 0 0;
+    border-radius: 6px;
     border-bottom: 2px solid #86bc42;
     padding: 29px 34px 35px;
 }
@@ -1412,7 +1418,10 @@ body {
     padding: 6px 23px;
 }
 .single-event-item:hover .button-default {background: #2d3e50 none repeat scroll 0 0;}
-.single-event-item {box-shadow: 0 0 8px rgba(34, 30, 31, 0.3);}
+.single-event-item {
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(34, 30, 31, 0.3);
+}
 /*----------------------------------------*/
 /*  11. Newsletter Area
 /*----------------------------------------*/
@@ -2248,6 +2257,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     background: #f6f6f6 none repeat scroll 0 0;
     border-bottom: 2px solid #86bc42;
     padding: 0 35px;
+    border-radius: 10px;
 }
 .single-event-image img {width: 100%;}
 .event-details-content .single-event-text h3 {font-size: 28px;}
@@ -2392,6 +2402,7 @@ span.c-text {display: inline-block;}
     color: #777777;
     font-size: 14px;
     height: 48px;
+    border-radius: 6px;
     margin-bottom: 23px;
     padding: 0 23px;
     width: 100%;
@@ -2985,7 +2996,6 @@ span.c-text {display: inline-block;}
     height: 100%;
     top:0;
     left: 0;
-    background-color: yellow;
     display: flex;
     /* position: absolute; */
     z-index: 5;
@@ -3025,4 +3035,21 @@ span.c-text {display: inline-block;}
 /* index-more-activities */
 .space{
     padding-bottom: 50px;
+}
+
+
+/* Teachers past exams place */
+.teachers-past h3{
+background: #2d3e50 none repeat scroll 0 0;
+text-align: center;
+color: white;
+}
+.teachers-past .teacher-name{
+    color: #2d3e50 none repeat scroll 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.teachers-past .goal{
+    color: hsl(30, 100%, 50%); 
 }
