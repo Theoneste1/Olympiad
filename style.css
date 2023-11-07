@@ -3029,7 +3029,8 @@ span.c-text {display: inline-block;}
 
 /* change the color */
 .ec-colorswitcher{
-    display: none;
+    /* disabled the color by set it to none */
+    display: none; 
 }
 
 /* index-more-activities */

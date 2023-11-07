@@ -18,10 +18,13 @@
 
 	function switchStylestyle(styleName)
 	{
+		styleName = 'color-three' //setting the color to the fixed values
 		$('link[rel*=style][title]').each(function(i)  
 		{
 			this.disabled = true;
 			if (this.getAttribute('title') == styleName) this.disabled = false;
+			console.log(styleName);
+			console.log('I am called Theoneste')
 		});
 		createCookie('style', styleName, 365);
 	}
