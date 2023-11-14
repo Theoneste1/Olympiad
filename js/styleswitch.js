@@ -18,13 +18,16 @@
 
 	function switchStylestyle(styleName)
 	{
-		styleName = 'color-three' //setting the color to the fixed values
+		// styleName = 'color-three' //setting the color to the fixed values
+		// styleName ='cs-color-10'
 		$('link[rel*=style][title]').each(function(i)  
 		{
 			this.disabled = true;
 			if (this.getAttribute('title') == styleName) this.disabled = false;
 			console.log(styleName);
-			console.log('I am called Theoneste')
+			console.log("Theoneste Nsanzabarinda")
+			
+		
 		});
 		createCookie('style', styleName, 365);
 	}
@@ -53,8 +56,10 @@ function readCookie(name)
 	}
 	return null;
 }
-function eraseCookie(name)
-{
-	createCookie(name,"",-1);
-}
+// function eraseCookie(name)
+// {
+// 	createCookie(name,"",-1);
+// }
 // /cookie functions
+
+eraseCookie =(name)=>{createCookie(name,"",-1)};
